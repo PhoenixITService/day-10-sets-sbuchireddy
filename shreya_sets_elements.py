@@ -8,4 +8,5 @@ d = {1, 3, 7, 9, 10}
 #Each part computes intersections and differences between sets,
 #then combines them using union (|)
 
-print((a&b-c-d)|(a&c-b-d)|(a&d-b-c)|(b&c-a-d)|(b&d-a-c)|(c&d-a-b))
+result=(a&b-c-d)|(a&c-b-d)|(a&d-b-c)|(b&c-a-d)|(b&d-a-c)|(c&d-a-b)
+print("Elements in exactly 2 sets:",result)
